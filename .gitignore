@@ -1,0 +1,22 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Chuck Norris Cipher Encoder (Java)/*
+!/Chuck Norris Cipher Encoder (Java)/task/
+/Chuck Norris Cipher Encoder (Java)/task/*
+!/Chuck Norris Cipher Encoder (Java)/task/src
+
+# Project exclude paths
+/Topics/Multidimensional array/Maximum element in a matrix/out/
+/Topics/Multidimensional array/Maximum element in a matrix/out/production/classes/
+/Topics/StringBuilder/Love of big letters/out/
+/Topics/StringBuilder/Love of big letters/out/production/classes/

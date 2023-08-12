@@ -1,0 +1,22 @@
+<h2>Spot the issue in Java enum</h2>
+<div class="step-text">
+<div class="alert alert-warning">Hey there! This problem might be a bit unpredictable, but give it a go and let us know how you do!</div>Consider the following Java code snippet. What is the potential issue with this 'enum' declaration?<br/><pre><code class="language-java">
+enum Day {
+  SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
+
+  Day() {
+   System.out.println("Constructor called for: "+ this.toString());
+  }
+
+  void displayDay(){
+    System.out.println("Today is "+ this.toString());
+  }
+
+  static int number = 7;
+
+  enum Month {
+    JANUARY, FEBRUARY, MARCH;
+  }
+}
+</code></pre>
+</div>
